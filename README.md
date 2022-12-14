@@ -3,6 +3,7 @@
 [Debian guide for maintainers](https://www.debian.org/doc/manuals/debmake-doc/index.en.html)
 [Bloomberg dpkg portal](https://dpkg.dx.bloomberg.com/)
 
+
 ## Setup
 - Install `debmake` and `debmake-doc` for public dpkg guide
 - Install `quilt`
@@ -21,5 +22,6 @@
 
 
 ## Notes
-/var/log/dpkg.log shows dpkg activity
-/etc/dpkg/ << machine config
+- /var/log/dpkg.log shows dpkg activity
+- /etc/dpkg/ << machine config
+- The `reprepro` package is used to set up your own package repo
